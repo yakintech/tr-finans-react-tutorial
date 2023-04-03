@@ -1,8 +1,8 @@
-import JsxEvents from "./dersler/jsxSample/JsxEvents"
+import ParentComp from "./dersler/props/ParentComp"
 
 function App() {
   return <>
-  <JsxEvents/>
+    <ParentComp />
   </>
 
 }

@@ -23,7 +23,12 @@ https://transform.tools/html-to-jsx
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 https://www.w3schools.com/js/js_arrow_function.asp
 
+//React conditional rendering
+https://blog.logrocket.com/react-conditional-rendering-9-methods/
 
+
+Default Props
+https://blog.logrocket.com/complete-guide-react-default-props/
 
 
 
