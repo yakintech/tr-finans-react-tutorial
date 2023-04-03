@@ -30,5 +30,10 @@ https://blog.logrocket.com/react-conditional-rendering-9-methods/
 Default Props
 https://blog.logrocket.com/complete-guide-react-default-props/
 
+Prop Types
+https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/
+
+
+
 
 

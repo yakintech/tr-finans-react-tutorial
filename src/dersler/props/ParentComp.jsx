@@ -3,6 +3,7 @@ import Child2Comp from './Child2Comp'
 import Child3Comp from './Child3Comp';
 import ChildComp from './ChildComp'
 import DefaultPropSample from './DefaultPropSample';
+import PropTypesSample from './PropTypesSample';
 
 function ParentComp() {
 
@@ -23,7 +24,10 @@ function ParentComp() {
     }
 
     return (<>
-        <DefaultPropSample title='Hello Türkiye Finans!!'/>
+        <PropTypesSample companyName='Apple'/>
+        <hr></hr>
+
+        <DefaultPropSample title='Hello Türkiye Finans!!' />
         <hr></hr>
 
         <div>This is Parent COMPONENT! </div>
