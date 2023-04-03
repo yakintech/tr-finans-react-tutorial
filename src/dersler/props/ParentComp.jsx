@@ -1,8 +1,10 @@
 import React from 'react'
+import Avatar from './Avatar';
 import Child2Comp from './Child2Comp'
 import Child3Comp from './Child3Comp';
 import ChildComp from './ChildComp'
 import DefaultPropSample from './DefaultPropSample';
+import PropFunctionSample from './PropFunctionSample';
 import PropTypesSample from './PropTypesSample';
 
 function ParentComp() {
@@ -23,8 +25,21 @@ function ParentComp() {
         countries: ['Türkiye', 'Almanya', 'İran', 'Fransa']
     }
 
+
+    const hello = () => {
+        alert('Hello Props FUNCTION!!!')
+    }
+
+    const calc = (data) => {
+        console.log('DATA ', data);
+    }
+
     return (<>
-        <PropTypesSample companyName='Apple'/>
+        <Avatar width={100} height={100} />
+        <hr></hr>
+        <PropFunctionSample hello={hello} calc={calc} />
+        <hr></hr>
+        <PropTypesSample companyName='Apple' />
         <hr></hr>
 
         <DefaultPropSample title='Hello Türkiye Finans!!' />

@@ -26,6 +26,8 @@ https://www.w3schools.com/js/js_arrow_function.asp
 //React conditional rendering
 https://blog.logrocket.com/react-conditional-rendering-9-methods/
 
+React Props
+https://react.dev/learn/passing-props-to-a-component
 
 Default Props
 https://blog.logrocket.com/complete-guide-react-default-props/
