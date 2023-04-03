@@ -19,6 +19,10 @@ https://react.dev/learn/writing-markup-with-jsx
 Html Elementlerini JSX e çevirme işlemi
 https://transform.tools/html-to-jsx
 
+//Arrow functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://www.w3schools.com/js/js_arrow_function.asp
+
 
 
 

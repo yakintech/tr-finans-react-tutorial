@@ -1,15 +1,9 @@
-import Navbar from "./dersler/templateOrnek/Navbar"
-import PageContent from "./dersler/templateOrnek/PageContent"
-import SiteFooter from "./dersler/templateOrnek/SiteFooter"
-import SiteHeader from "./dersler/templateOrnek/SiteHeader"
+import ArrayBinding from "./dersler/jsxSample/ArrayBinding"
+import OneWayBinding from "./dersler/jsxSample/OneWayBinding"
 
 function App() {
-
   return <>
-    <Navbar />
-    <SiteHeader/>
-    <PageContent/>
-    <SiteFooter/>
+    <ArrayBinding />
   </>
 
 }
@@ -20,3 +14,4 @@ export default App
 //class yerine className
 //style property içerisine bir JS objesi alır
 //string olmayan tüm özellikler {} içerisinde gösterilir!
+//JSX içerisinde Javascript kodu yazmak için {} kullanılır.
