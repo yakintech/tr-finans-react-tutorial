@@ -1,9 +1,8 @@
-import ArrayBinding from "./dersler/jsxSample/ArrayBinding"
-import OneWayBinding from "./dersler/jsxSample/OneWayBinding"
+import JsxEvents from "./dersler/jsxSample/JsxEvents"
 
 function App() {
   return <>
-    <ArrayBinding />
+  <JsxEvents/>
   </>
 
 }

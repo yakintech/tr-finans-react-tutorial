@@ -4,6 +4,8 @@ function ArrayBinding() {
 
     let cities = ["İzmir", "İstanbul", "Ankara", "Trabzon", "Diyarbakır", "Edirne"]
 
+    let iller = ["Aydın","Manisa"]
+
     //jsx içerindeki element döngülerinde MAP KULLANILIR!
     return (<>
         <ul>
@@ -12,7 +14,10 @@ function ArrayBinding() {
                 //     return <li>{item}</li>
                 // })
 
+                // cities.reverse().map(item => <li>{item}</li>)
+
                 cities.map(item => <li>{item}</li>)
+
             }
         </ul>
     </>)
