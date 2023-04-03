@@ -2,11 +2,23 @@ Reactjs Resmi Döküman
 https://react.dev/
 https://create-react-app.dev/
 
+VS Code Ext ( arama bölümüne react yazdığınızda çıkan ilk ext)
+dsznajder.es7-react-js-snippets
+Name: ES7+ React/Redux/React-Native snippets
+
 Proje Oluşturma
 npx create-react-app my-app
 
 Import - Export Referanslar
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+
+
+JSX Nedir?
+https://react.dev/learn/writing-markup-with-jsx
+
+Html Elementlerini JSX e çevirme işlemi
+https://transform.tools/html-to-jsx
+
 
 
 
