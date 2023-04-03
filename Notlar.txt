@@ -1,0 +1,9 @@
+import - Export
+*Export etmediğiniz herhangi bir js fonksiyonunu başka bir yerde ASLA kullanamazsınız (default private gibi düşünülebilir!) Kullanmak için ise import etmemiz gereklidir!
+
+
+* Fragment
+Return ettiğimiz "html" blokları mutlaka bir elementle sarılmalıdır. Eğer div vb. bir element yok ise boş düğümle (fragment) sarmallanabilir!
+
+
+
