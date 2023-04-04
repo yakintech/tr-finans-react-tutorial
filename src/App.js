@@ -1,10 +1,9 @@
-
-import TableSample from './dersler/stateArraySamples/TableSample'
+import ApiPostRequestWithAxios from './dersler/effectSample/ApiPostRequestWithAxios'
 
 function App() {
   
   return <>
-    <TableSample/>
+    <ApiPostRequestWithAxios/>
   </>
 
 }
