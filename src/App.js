@@ -1,8 +1,8 @@
-import ParentComp from "./dersler/props/ParentComp"
+import StateBooleanSample from "./dersler/stateSamples/StateBooleanSample"
 
 function App() {
   return <>
-    <ParentComp />
+  <StateBooleanSample/>
   </>
 
 }

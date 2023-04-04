@@ -36,6 +36,9 @@ Prop Types
 https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/
 
 
+React Virtual DOM
+https://blog.logrocket.com/virtual-dom-react/#:~:text=React%20uses%20the%20virtual%20DOM,to%20write%20more%20predictable%20code.
+
 
 
 
