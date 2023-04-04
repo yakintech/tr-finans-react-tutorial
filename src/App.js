@@ -1,9 +1,34 @@
-import ApiPostRequestWithAxios from './dersler/effectSample/ApiPostRequestWithAxios'
+import { Routes, Route, Link } from "react-router-dom"
+import About from "./dersler/routingSample/About"
+import Contact from "./dersler/routingSample/Contact"
+import CustomerDetail from "./dersler/routingSample/CustomerDetail"
+import CustomerTable from "./dersler/routingSample/CustomerTable"
+import Home from "./dersler/routingSample/Home"
+import NotFound from "./dersler/routingSample/NotFound"
 
 function App() {
   
+  //Link = <a href='' />
   return <>
-    <ApiPostRequestWithAxios/>
+  <h3>Site Header</h3>
+  <ul style={{display:'flex', justifyContent:'space-between'}}>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/about'>About</Link></li>
+    <li><Link to='/contact'>Contact</Link></li>
+    <li><Link to='/customers'>Customers</Link></li>
+
+  </ul>
+      <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/about" element={<About/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/customers" element={<CustomerTable/>}></Route>
+          <Route path="/customers/:id" element={<CustomerDetail/>}></Route>
+
+          <Route path="*" element={<NotFound/>}></Route>
+      </Routes>
+
+      <h3>Site Footer</h3>
   </>
 
 }

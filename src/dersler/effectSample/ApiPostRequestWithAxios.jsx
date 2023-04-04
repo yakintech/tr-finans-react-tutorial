@@ -34,3 +34,7 @@ function ApiPostRequestWithAxios() {
 }
 
 export default ApiPostRequestWithAxios
+
+
+
+// GET - POST - PUT - DELETE
