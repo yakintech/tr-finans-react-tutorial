@@ -1,8 +1,10 @@
-import StateBooleanSample from "./dersler/stateSamples/StateBooleanSample"
+
+import TableSample from './dersler/stateArraySamples/TableSample'
 
 function App() {
+  
   return <>
-  <StateBooleanSample/>
+    <TableSample/>
   </>
 
 }

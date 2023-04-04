@@ -39,6 +39,17 @@ https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/
 React Virtual DOM
 https://blog.logrocket.com/virtual-dom-react/#:~:text=React%20uses%20the%20virtual%20DOM,to%20write%20more%20predictable%20code.
 
+Tarayıcıdaki JSON ları daha iyi bir formatta görmek için Chrome ext
+https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc
 
+js Array methods
+Filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+
+
+Spread Operator - Syntax
+https://www.w3schools.com/react/react_es6_spread.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
 
