@@ -1,4 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom"
+import DataGridSample from "./dersler/dataGrid/DataGridSample"
+import SupplierDetail from "./dersler/dataGrid/SupplierDetail"
+import SuppliersDataGrid from "./dersler/dataGrid/SuppliersDataGrid"
 import BaseComponents from "./dersler/materialUISample/BaseComponents"
 import GridSample from "./dersler/materialUISample/GridSample"
 import About from "./dersler/routingSample/About"
@@ -15,11 +18,11 @@ function App() {
   <h3>Site Header</h3>
   <ul style={{display:'flex', justifyContent:'space-between'}}>
     <li><Link to='/'>Home</Link></li>
-    <li><Link to='/about'>About</Link></li>
-    <li><Link to='/contact'>Contact</Link></li>
-    <li><Link to='/customers'>Customers</Link></li>
     <li><Link to='/materialbase'>Material Base</Link></li>
     <li><Link to='/gridsample'>Grid Sample</Link></li>
+    <li><Link to='/datagrid'>Data Grid</Link></li>
+    <li><Link to='/suppliers'>Suppliers</Link></li>
+
 
 
   </ul>
@@ -31,6 +34,9 @@ function App() {
           <Route path="/customers/:id" element={<CustomerDetail/>}></Route>
           <Route path="/materialbase" element={<BaseComponents/>}></Route>
           <Route path="/gridsample" element={<GridSample/>}></Route>
+          <Route path="/datagrid" element={<DataGridSample/>}></Route>
+          <Route path="/suppliers" element={<SuppliersDataGrid/>}></Route>
+          <Route path="/suppliers/:id" element={<SupplierDetail/>}></Route>
 
           <Route path="*" element={<NotFound/>}></Route>
       </Routes>

@@ -62,3 +62,8 @@ https://react-bootstrap.github.io/
 Css Flexbox
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://flexboxfroggy.com/
+
+Server Side Pagination
+https://mui.com/x/react-data-grid/pagination/#server-side-pagination
+https://www.youtube.com/watch?v=FdISUQrdmuo&ab_channel=TheNamelessCoder
+
