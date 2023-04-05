@@ -1,4 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom"
+import BaseComponents from "./dersler/materialUISample/BaseComponents"
+import GridSample from "./dersler/materialUISample/GridSample"
 import About from "./dersler/routingSample/About"
 import Contact from "./dersler/routingSample/Contact"
 import CustomerDetail from "./dersler/routingSample/CustomerDetail"
@@ -16,6 +18,9 @@ function App() {
     <li><Link to='/about'>About</Link></li>
     <li><Link to='/contact'>Contact</Link></li>
     <li><Link to='/customers'>Customers</Link></li>
+    <li><Link to='/materialbase'>Material Base</Link></li>
+    <li><Link to='/gridsample'>Grid Sample</Link></li>
+
 
   </ul>
       <Routes>
@@ -24,6 +29,8 @@ function App() {
           <Route path="/contact" element={<Contact/>}></Route>
           <Route path="/customers" element={<CustomerTable/>}></Route>
           <Route path="/customers/:id" element={<CustomerDetail/>}></Route>
+          <Route path="/materialbase" element={<BaseComponents/>}></Route>
+          <Route path="/gridsample" element={<GridSample/>}></Route>
 
           <Route path="*" element={<NotFound/>}></Route>
       </Routes>

@@ -53,3 +53,12 @@ https://www.w3schools.com/react/react_es6_spread.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
 
+UI Kütüphaneleri
+https://mui.com/
+https://ant.design/
+https://chakra-ui.com/
+https://react-bootstrap.github.io/
+
+Css Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/
