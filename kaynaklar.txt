@@ -67,3 +67,13 @@ Server Side Pagination
 https://mui.com/x/react-data-grid/pagination/#server-side-pagination
 https://www.youtube.com/watch?v=FdISUQrdmuo&ab_channel=TheNamelessCoder
 
+
+Form Kütüphaneleri
+https://formik.org/
+https://react-hook-form.com/
+
+
+Validation Library
+https://www.npmjs.com/package/yup
+
+

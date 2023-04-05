@@ -8,6 +8,7 @@ import ProductsList from "./dersler/contextSample/ProductsList"
 import DataGridSample from "./dersler/dataGrid/DataGridSample"
 import SupplierDetail from "./dersler/dataGrid/SupplierDetail"
 import SuppliersDataGrid from "./dersler/dataGrid/SuppliersDataGrid"
+import AddSupplierForm from "./dersler/formikSample/AddSupplierForm"
 import BaseComponents from "./dersler/materialUISample/BaseComponents"
 import GridSample from "./dersler/materialUISample/GridSample"
 import About from "./dersler/routingSample/About"
@@ -36,6 +37,7 @@ function App() {
       <li><Link to='/products'>Products</Link></li>
       <li><Link to='/favorites'>Favorites ( {favorites.length} )</Link></li>
       <li><Link to='/cart'>Cart ( {cart.length} )</Link></li>
+      <li><Link to='/addsupplier'>Add Supplier</Link></li>
 
 
 
@@ -54,6 +56,7 @@ function App() {
       <Route path="/products" element={<ProductsList />}></Route>
       <Route path="/favorites" element={<Favorites />}></Route>
       <Route path="/cart" element={<CartPage />}></Route>
+      <Route path="/addsupplier" element={<AddSupplierForm />}></Route>
 
       <Route path="*" element={<NotFound />}></Route>
     </Routes>
