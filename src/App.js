@@ -1,5 +1,7 @@
 import { useContext } from "react"
 import { Routes, Route, Link } from "react-router-dom"
+import { cartContext } from "./dersler/contextSample/CartContext"
+import CartPage from "./dersler/contextSample/CartPage"
 import Favorites from "./dersler/contextSample/Favorites"
 import { favoritesContext } from "./dersler/contextSample/FavoritesContext"
 import ProductsList from "./dersler/contextSample/ProductsList"
@@ -15,9 +17,12 @@ import CustomerTable from "./dersler/routingSample/CustomerTable"
 import Home from "./dersler/routingSample/Home"
 import NotFound from "./dersler/routingSample/NotFound"
 
+
 function App() {
 
   let { favorites } = useContext(favoritesContext);
+  let { cart } = useContext(cartContext);
+
 
 
   return <>
@@ -30,6 +35,7 @@ function App() {
       <li><Link to='/suppliers'>Suppliers</Link></li>
       <li><Link to='/products'>Products</Link></li>
       <li><Link to='/favorites'>Favorites ( {favorites.length} )</Link></li>
+      <li><Link to='/cart'>Cart ( {cart.length} )</Link></li>
 
 
 
@@ -47,6 +53,7 @@ function App() {
       <Route path="/suppliers/:id" element={<SupplierDetail />}></Route>
       <Route path="/products" element={<ProductsList />}></Route>
       <Route path="/favorites" element={<Favorites />}></Route>
+      <Route path="/cart" element={<CartPage />}></Route>
 
       <Route path="*" element={<NotFound />}></Route>
     </Routes>

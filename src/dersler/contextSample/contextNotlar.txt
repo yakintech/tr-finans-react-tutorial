@@ -1,0 +1,2 @@
+1) Öncelikle context ve içerisindeki global state tanımlanır
+2) Oluşturulan contextProvider (cartProvider, favoritesProvider gibi) index.js de parent olarak sarmallama işlemi yapar
