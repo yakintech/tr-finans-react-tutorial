@@ -9,8 +9,11 @@ import DataGridSample from "./dersler/dataGrid/DataGridSample"
 import SupplierDetail from "./dersler/dataGrid/SupplierDetail"
 import SuppliersDataGrid from "./dersler/dataGrid/SuppliersDataGrid"
 import AddSupplierForm from "./dersler/formikSample/AddSupplierForm"
+import AddProductForm from "./dersler/hookFormSample/AddProductForm"
 import BaseComponents from "./dersler/materialUISample/BaseComponents"
 import GridSample from "./dersler/materialUISample/GridSample"
+import AddCustomer from "./dersler/react-query/AddCustomer"
+import CustomersUserQuery from "./dersler/react-query/CustomersUserQuery"
 import About from "./dersler/routingSample/About"
 import Contact from "./dersler/routingSample/Contact"
 import CustomerDetail from "./dersler/routingSample/CustomerDetail"
@@ -38,7 +41,9 @@ function App() {
       <li><Link to='/favorites'>Favorites ( {favorites.length} )</Link></li>
       <li><Link to='/cart'>Cart ( {cart.length} )</Link></li>
       <li><Link to='/addsupplier'>Add Supplier</Link></li>
-
+      <li><Link to='/addproductform'>Add Product</Link></li>
+      <li><Link to='/customersUserQuery'>Customers</Link></li>
+      <li><Link to='/addCustomer'>Add Customer</Link></li>
 
 
     </ul>
@@ -57,7 +62,9 @@ function App() {
       <Route path="/favorites" element={<Favorites />}></Route>
       <Route path="/cart" element={<CartPage />}></Route>
       <Route path="/addsupplier" element={<AddSupplierForm />}></Route>
-
+      <Route path="/addproductform" element={<AddProductForm />}></Route>
+      <Route path="/customersUserQuery" element={<CustomersUserQuery />}></Route>
+      <Route path="/addCustomer" element={<AddCustomer />}></Route>
       <Route path="*" element={<NotFound />}></Route>
     </Routes>
 

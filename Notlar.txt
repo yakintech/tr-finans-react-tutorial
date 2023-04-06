@@ -7,3 +7,7 @@ Return ettiğimiz "html" blokları mutlaka bir elementle sarılmalıdır. Eğer 
 
 
 
+
+React Query Cache default open
+
+

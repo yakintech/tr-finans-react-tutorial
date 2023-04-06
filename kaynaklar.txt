@@ -77,3 +77,11 @@ Validation Library
 https://www.npmjs.com/package/yup
 
 
+Otomatik Input Doldurma
+https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo
+
+
+React Query
+https://medium.com/frontend-development-with-js/react-query-fc266da9f7fa
+
+
