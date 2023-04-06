@@ -1,5 +1,8 @@
 import { useContext } from "react"
 import { Routes, Route, Link } from "react-router-dom"
+import AddCategory from "./dersler/baseNetworkPages/AddCategory"
+import CategoriesList from "./dersler/baseNetworkPages/CategoriesList"
+import CategoryDetail from "./dersler/baseNetworkPages/CategoryDetail"
 import { cartContext } from "./dersler/contextSample/CartContext"
 import CartPage from "./dersler/contextSample/CartPage"
 import Favorites from "./dersler/contextSample/Favorites"
@@ -44,7 +47,8 @@ function App() {
       <li><Link to='/addproductform'>Add Product</Link></li>
       <li><Link to='/customersUserQuery'>Customers</Link></li>
       <li><Link to='/addCustomer'>Add Customer</Link></li>
-
+      <li><Link to='/categories'>Categories</Link></li>
+      <li><Link to='/addcategory'>Add Category</Link></li>
 
     </ul>
     <Routes>
@@ -65,6 +69,10 @@ function App() {
       <Route path="/addproductform" element={<AddProductForm />}></Route>
       <Route path="/customersUserQuery" element={<CustomersUserQuery />}></Route>
       <Route path="/addCustomer" element={<AddCustomer />}></Route>
+      <Route path="/categories" element={<CategoriesList />}></Route>
+      <Route path="/categories/:id" element={<CategoryDetail />}></Route>
+      <Route path="/addcategory" element={<AddCategory />}></Route>
+     
       <Route path="*" element={<NotFound />}></Route>
     </Routes>
 

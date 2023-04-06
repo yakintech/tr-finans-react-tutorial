@@ -85,3 +85,5 @@ React Query
 https://medium.com/frontend-development-with-js/react-query-fc266da9f7fa
 
 
+Js Async ve Await Kavramı ( ÖNEMLİ!! )
+https://www.w3schools.com/js/js_async.asp
