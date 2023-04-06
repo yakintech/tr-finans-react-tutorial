@@ -3,6 +3,8 @@ import { Routes, Route, Link } from "react-router-dom"
 import AddCategory from "./dersler/baseNetworkPages/AddCategory"
 import CategoriesList from "./dersler/baseNetworkPages/CategoriesList"
 import CategoryDetail from "./dersler/baseNetworkPages/CategoryDetail"
+import AddOrder from "./dersler/baseQueryPages/AddOrder"
+import OrderList from "./dersler/baseQueryPages/OrderList"
 import { cartContext } from "./dersler/contextSample/CartContext"
 import CartPage from "./dersler/contextSample/CartPage"
 import Favorites from "./dersler/contextSample/Favorites"
@@ -49,6 +51,8 @@ function App() {
       <li><Link to='/addCustomer'>Add Customer</Link></li>
       <li><Link to='/categories'>Categories</Link></li>
       <li><Link to='/addcategory'>Add Category</Link></li>
+      <li><Link to='/orders'>Orders</Link></li>
+      <li><Link to='/addorder'>Add Order</Link></li>
 
     </ul>
     <Routes>
@@ -72,7 +76,9 @@ function App() {
       <Route path="/categories" element={<CategoriesList />}></Route>
       <Route path="/categories/:id" element={<CategoryDetail />}></Route>
       <Route path="/addcategory" element={<AddCategory />}></Route>
-     
+      <Route path="/orders" element={<OrderList />}></Route>
+      <Route path="/addorder" element={<AddOrder />}></Route>
+  
       <Route path="*" element={<NotFound />}></Route>
     </Routes>
 
