@@ -9,6 +9,14 @@ export const baseNetwork = {
     getAll: async (entityUrl) => {
         let responseData = [];
 
+        // let token = localStorage.getItem('token');
+
+        // axios.get('/api/customers', {
+        //     headers:{
+        //         'authorization': `Bearer ` + token
+        //     }
+        // })
+
         //await anahtar kelimesi ile asenkron fonksiyonu "senkronlaştırıyorum"
         await axiosInstance
             .get(entityUrl)

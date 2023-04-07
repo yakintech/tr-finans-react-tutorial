@@ -92,3 +92,16 @@ https://www.w3schools.com/js/js_async.asp
 Redux Dev Tools Ext
 https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 
+
+React Folder Structre
+https://blog.webdevsimplified.com/2022-07/react-folder-structure/
+https://profy.dev/article/react-folder-structure
+
+
+React Free Deploy Sites
+https://www.netlify.com/
+https://www.digitalocean.com/ ( 200 dolar kredi veriyor)
+
+Deploy Process
+https://create-react-app.dev/   
+npm run build ile build alıyoruz
