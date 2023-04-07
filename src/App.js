@@ -19,6 +19,8 @@ import BaseComponents from "./dersler/materialUISample/BaseComponents"
 import GridSample from "./dersler/materialUISample/GridSample"
 import AddCustomer from "./dersler/react-query/AddCustomer"
 import CustomersUserQuery from "./dersler/react-query/CustomersUserQuery"
+import ReduxCounter from "./dersler/redux/ReduxCounter"
+import ReduxMain from "./dersler/redux/ReduxMain"
 import About from "./dersler/routingSample/About"
 import Contact from "./dersler/routingSample/Contact"
 import CustomerDetail from "./dersler/routingSample/CustomerDetail"
@@ -53,6 +55,8 @@ function App() {
       <li><Link to='/addcategory'>Add Category</Link></li>
       <li><Link to='/orders'>Orders</Link></li>
       <li><Link to='/addorder'>Add Order</Link></li>
+      <li><Link to='/reduxcounter'>Redux Counter</Link></li>
+      <li><Link to='/reduxmain'>Redux Main</Link></li>
 
     </ul>
     <Routes>
@@ -78,6 +82,8 @@ function App() {
       <Route path="/addcategory" element={<AddCategory />}></Route>
       <Route path="/orders" element={<OrderList />}></Route>
       <Route path="/addorder" element={<AddOrder />}></Route>
+      <Route path="/reduxcounter" element={<ReduxCounter />}></Route>
+      <Route path="/reduxmain" element={<ReduxMain />}></Route>
   
       <Route path="*" element={<NotFound />}></Route>
     </Routes>
